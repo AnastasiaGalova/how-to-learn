@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
 <body>
@@ -57,7 +57,6 @@
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </li>
-          <li class="cards__item"></li>
         </ul>
       </section>
 
@@ -65,8 +64,8 @@
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" width="1038" height="584" src="https://www.youtube.com/embed/5MgBikgcWnY" title="The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          <iframe class="video__iframe" width="1038" height="584" src="https://www.youtube.com/embed/arj7oStGLkU" title="Tim Urban: Inside the mind of a master procrastinator | TED" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="Tim Urban: Inside the mind of a master procrastinator | TED" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -130,7 +129,7 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
@@ -191,12 +190,20 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <a class="resources__link" href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамас"></a>
-          <a class="resources__link" href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Логотип N+1"></a>
-          <a class="resources__link" href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Логотип Стрелка"></a>
-          <a class="resources__link" href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Логотип Полка"></a>
-        </div>
+        <ul class="resources__logo-zone">
+          <li>
+            <a class="resources__link" href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамас"></a>
+          </li>
+          <li>
+            <a class="resources__link" href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Логотип N+1"></a>
+          </li>
+          <li>
+            <a class="resources__link" href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Логотип Стрелка"></a>
+          </li>
+          <li>
+            <a class="resources__link" href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Логотип Полка"></a>
+          </li>
+        </ul>
       </section>
     </main>
 

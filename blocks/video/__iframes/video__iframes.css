@@ -1,6 +1,7 @@
 .video__iframes {
-    max-width: fit-content;
-    margin: 0 auto;
-    position: relative;
-    top: 50px;
+  display: flex;
+  max-width: fit-content;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
   }
